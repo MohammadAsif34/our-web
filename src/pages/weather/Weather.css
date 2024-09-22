@@ -43,8 +43,12 @@
       flex: 1 1 0%;
     }
   }
-  /* @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  } */
+  @media only screen and (max-width: 576px) {
+    .searchBox {
+      width: 100%;
+    }
+    .main {
+      background-image: url("../../assets/weather-home3.jpg");
+    }
+  }
 }
